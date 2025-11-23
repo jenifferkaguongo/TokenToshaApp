@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Token Admin Dashboard</title>
+    <!-- Load Tailwind CSS via CDN directly to bypass build system issues -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // Tailwind config for custom font
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Apply Inter font globally and ensure body fills viewport */
+      body {
+        font-family: 'Inter', sans-serif;
+        margin: 0;
+        min-height: 100vh;
+        background-color: #f3f4f6; /* Equivalent to gray-100 */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- The React app will mount here -->
+    <div id="root"></div>
+    <!-- Script tag for your application entry point (main.jsx) -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

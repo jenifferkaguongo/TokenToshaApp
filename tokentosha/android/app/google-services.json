@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "744758112717",
+    "project_id": "tokentosha",
+    "storage_bucket": "tokentosha.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744758112717:android:3d96103f300c80cd339484",
+        "android_client_info": {
+          "package_name": "com.example.tokentosha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs9GtnCboNQpbidP-vgss2rMD325A508s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
